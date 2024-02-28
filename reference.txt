@@ -1,0 +1,11 @@
+https://numericaideas.com/blog/docker-compose-springboot-mysql/
+
+
+java -jar -Dspring.profiles.active=production target/docker-compose-springboot-mysql-0.0.1-SNAPSHOT.jar
+
+./mvnw clean install -DskipTests
+
+./build.sh
+
+git add .
+git commit --amend --no-edit
